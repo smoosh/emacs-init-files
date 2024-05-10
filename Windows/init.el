@@ -5,6 +5,9 @@
 (tool-bar-mode -1)
 (desktop-save-mode 1)
 
+;; beacon
+(beacon-mode 1)
+
 ;; set custom
 (setq custom-file "~/.emacs.d/custom.el")
 (load custom-file)
@@ -197,4 +200,10 @@
 			("NIGHTRIDE FM" . "https://nightride.fm/?station=nightride")
 			("90s Hits" . "https://zeno.fm/radio/90s_HITS/")))
 
-
+;; elfeed feeds
+(setq elfeed-feeds (quote
+		    (("https://www.reddit.com/r/linux.rss" reddit linux)
+		     ("https://www.dailywire.com/feeds/rss.xml" dailywire news)
+		     ("https://www.reddit.com/r/emacs.rss" reddit linux emacs)
+		     ("https://hackaday.com/blog/feed/" hackaday linux hacking)
+		     ("https://www.reddit.com/r/emacs_lisp.rss" reddit lisp emacs))))
