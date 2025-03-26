@@ -1,5 +1,4 @@
 ; -*-Lisp-*-
-;; init file for windows systems, may want to port over to my gnu/linux boxes
 (menu-bar-mode -1)
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
