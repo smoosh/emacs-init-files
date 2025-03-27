@@ -158,8 +158,6 @@
 (marginalia-mode 1)
 (file-name-shadow-mode 1)
 
-(setq markdown-command "c:/users/plynch/appdata/local/pandoc/pandoc")
-
 ;;kill other buffers
 (defun kill-other-buffers ()
   "Kill all other buffers."
